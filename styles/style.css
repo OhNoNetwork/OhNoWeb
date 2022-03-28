@@ -1,44 +1,121 @@
 body {
 
-    background: rgb(177,0,0);
-background: -moz-linear-gradient(90deg, rgba(177,0,0,1) 0%, rgba(0,0,149,1) 35%, rgba(0,166,30,1) 100%);
-background: -webkit-linear-gradient(90deg, rgba(177,0,0,1) 0%, rgba(0,0,149,1) 35%, rgba(0,166,30,1) 100%);
-background: linear-gradient(90deg, rgba(177,0,0,1) 0%, rgba(0,0,149,1) 35%, rgba(0,166,30,1) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#b10000",endColorstr="#00a61e",GradientType=1);
+  background-color: aquamarine;
+
 }
 
-h1 {
+  header {
 
-    color:red;
+    background-color: rgb(205, 255, 238);
+    padding: 15px;
+
+
+  }
+
+   /* Start Nav */
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(0, 53, 35);
+  }
+  
+  li {
+    float: left;
+    border-right:1px solid #bbb;
+  }
+  
+  li:last-child {
+    border-right: none;
+  }
+  
+  li a {
+    display: block;
+    color: white;
     text-align: center;
-}
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #111;
+  }
+  
+  .active {
+    background-color: #04AA6D;
+  }
 
-h2 {
-    
-    color:rgb(255, 255, 255);
-    text-align: center;
-}
+  aside {
+    width: 30%;
+    padding-left: 15px;
+    margin-left: 15px;
+    float: right;
+    font-style: italic;
+    background-color: rgb(63, 170, 135);
+  }
+  
+ /* End Nav */
 
-h3 {
+ footer {
 
-    color: lightblue;
-    text-align: center
-}
+  position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: rgb(205, 255, 238);
+   color: white;
+   text-align: center;
 
-.left-h3 {
+ }
 
-    color: lightblue;
-    text-align: left
-}
+  /* Start Headers */
+  
+  h1 {
 
-.center-h3 {
 
-    color: lightblue;
-    text-align: center
-}
 
-.right-h3 {
+  }
 
-    color: lightblue;
-    text-align: right
-}
+  h2 {
+
+    color: tomato;
+    font-family: 'IBM Plex Sans Condensed', sans-serif;
+
+  }
+
+  h3 {
+
+    color: darkolivegreen;
+    font-family: 'Ubuntu Condensed', sans-serif;
+
+  }
+
+  h4 {
+
+    color: rgb(46, 78, 175);
+    font-family: 'Red Hat Mono', monospace;
+
+  }
+
+  h5 {
+
+    color: fuchsia;
+    font-family: 'Red Hat Mono', monospace;
+
+  }
+
+  /* End Headers */
+
+  .contact {
+
+    border: 5px outset rgb(69, 156, 255);
+    background-color: #010536;
+    width: 500px;
+    height: 250px;
+    padding: 30px;
+    margin: 15px auto;
+
+
+  }
