@@ -119,3 +119,15 @@ body {
 
 
   }
+
+  .video {
+
+    border: 5px outset rgb(0,8,202);
+    background-color: rgb(79,184,255);
+    width: 630px;
+    height: 410px;
+    padding: 30px;
+    margin: 15px auto;
+    text-align: center;
+
+  }
