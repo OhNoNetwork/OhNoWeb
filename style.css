@@ -33,6 +33,7 @@ nav a {
 }
 
 aside {
+  display: flex;
   float: right;
   width: 25%;
   background-color: lightyellow;
