@@ -49,8 +49,14 @@ nav a {
   color: black;
 }
 
+/* Clearfix class */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
 aside {
-  display: flex;
   float: right;
   width: 25%;
   background-color: lightyellow;
