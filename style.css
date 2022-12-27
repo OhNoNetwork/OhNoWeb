@@ -57,12 +57,11 @@ nav a {
 }
 
 aside {
-  float: left;
+  float: right;
   width: 25%;
   background-color: lightyellow;
   padding: 20px;
 }
-
 
 main {
   float: left;
