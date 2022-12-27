@@ -56,6 +56,11 @@ nav a {
   display: table;
 }
 
+.container {
+  display: flex;
+  flex-direction: row;
+}
+
 aside {
   float: right;
   width: 25%;
