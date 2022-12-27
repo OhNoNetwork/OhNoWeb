@@ -1,133 +1,53 @@
+/* CSS code for the website */
 body {
-
-  background-color: aquamarine;
-
+  font-family: Arial, sans-serif;
+  margin: 0;
 }
 
-  header {
+header {
+  background-color: lightblue;
+  padding: 20px;
+  text-align: center;
+}
 
-    background-color: rgb(205, 255, 238);
-    padding: 15px;
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: lightgray;
+  padding: 20px;
+}
 
+nav ul {
+  list-style: none;
+  display: flex;
+}
 
-  }
+nav li {
+  margin: 0 10px;
+}
 
-   /* Start Nav */
+nav a {
+  text-decoration: none;
+  color: black;
+}
 
-  ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: rgb(0, 53, 35);
-  }
-  
-  li {
-    float: left;
-    border-right:1px solid #bbb;
-  }
-  
-  li:last-child {
-    border-right: none;
-  }
-  
-  li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
-  
-  li a:hover:not(.active) {
-    background-color: #111;
-  }
-  
-  .active {
-    background-color: #04AA6D;
-  }
+aside {
+  float: right;
+  width: 25%;
+  background-color: lightyellow;
+  padding: 20px;
+}
 
-  aside {
-    width: 30%;
-    padding-left: 15px;
-    margin-left: 15px;
-    float: right;
-    font-style: italic;
-    background-color: rgb(63, 170, 135);
-  }
-  
- /* End Nav */
+main {
+  float: left;
+  width: 75%;
+  padding: 20px;
+}
 
- footer {
-
-  position: fixed;
-   left: 0;
-   bottom: 0;
-   width: 100%;
-   background-color: rgb(205, 255, 238);
-   color: white;
-   text-align: center;
-
- }
-
-  /* Start Headers */
-  
-  h1 {
-
-
-
-  }
-
-  h2 {
-
-    color: tomato;
-    font-family: 'IBM Plex Sans Condensed', sans-serif;
-
-  }
-
-  h3 {
-
-    color: darkolivegreen;
-    font-family: 'Ubuntu Condensed', sans-serif;
-
-  }
-
-  h4 {
-
-    color: rgb(46, 78, 175);
-    font-family: 'Red Hat Mono', monospace;
-
-  }
-
-  h5 {
-
-    color: fuchsia;
-    font-family: 'Red Hat Mono', monospace;
-
-  }
-
-  /* End Headers */
-
-  .contact {
-
-    border: 5px outset rgb(69, 156, 255);
-    background-color: #010536;
-    width: 500px;
-    height: 250px;
-    padding: 30px;
-    margin: 15px auto;
-
-
-  }
-
-  .video {
-
-    border: 5px outset rgb(0,8,202);
-    background-color: rgb(79,184,255);
-    width: 630px;
-    height: 410px;
-    padding: 30px;
-    margin: 15px auto;
-    text-align: center;
-
-  }
+footer {
+  clear: both;
+  background-color: lightgreen;
+  padding: 20px;
+  text-align: center;
+}
