@@ -49,13 +49,6 @@ nav a {
   color: black;
 }
 
-/* Clearfix class */
-.clearfix::after {
-  content: "";
-  clear: both;
-  display: table;
-}
-
 .container {
   display: flex;
   flex-direction: row;
@@ -63,14 +56,14 @@ nav a {
 
 aside {
   float: right;
-  width: 25%;
+  width: 30%;
   background-color: lightyellow;
   padding: 20px;
 }
 
 main {
   float: left;
-  width: 75%;
+  width: 70%;
   padding: 20px;
 }
 
