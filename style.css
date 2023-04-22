@@ -146,6 +146,40 @@ h1 {
   bottom: 0;
 }
 
+.box-index {
+  flex-basis: calc(33.33% - 20px);
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 20px;
+  padding: 20px;
+  border: 1.5px solid #ccc;
+}
+
+.box-index:last-child {
+  margin-right: 0;
+}
+
+.box-index h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.box-index p {
+  margin-bottom: 20px;
+}
+
+.box-index a {
+  display: block;
+  padding: 10px 20px;
+  background-color: #f2f2f2;
+  color: #333;
+  font-weight: bold;
+}
+
+.box-index a:hover {
+  background-color: #ccc;
+}
+
 /* Footer styles */
 footer {
   background-color: #aeb1ff;
